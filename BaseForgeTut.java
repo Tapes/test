@@ -23,7 +23,7 @@ public class BaseForgeTut
 	@Init
 	public void LoadFrom(FMLInitializationEvent event)
 	{
-		proxy.registerRenderInformation()
+		proxy.registerRenderInformation();
 		ClientProxy.registerRenderInformation();
 	}
 	
